@@ -11,6 +11,6 @@ app.get('/about', function(req, res){
     res.render('about');
 });
 
-app.listen(3000, function(){
-    console.log("The YelpCamp Server has Started!");
+app.listen(port, function(){
+    console.log("The DeployingDemo App has started!");
 });
